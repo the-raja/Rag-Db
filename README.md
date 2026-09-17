@@ -1,4 +1,4 @@
-# 🚀 AI-Map — VectorDB Engine & RAG Visualizer (Python)
+# 🚀 Rag-Db — VectorDB Engine & RAG Visualizer (Python)
 
 [![CI/CD Pipeline](https://img.shields.io/badge/CI%2FCD-Passing-brightgreen?style=flat-square&logo=githubactions)](https://github.com)
 [![Docker](https://img.shields.io/badge/Docker-Supported-blue?style=flat-square&logo=docker)](https://www.docker.com/)
@@ -8,7 +8,7 @@
 A fully working **Vector Database** built from scratch in **Python** (using pure standard library) with an interactive web UI.  
 Implements **HNSW**, **KD-Tree**, and **Brute Force** search algorithms side-by-side, plus a **RAG pipeline** powered by a local LLM via Ollama.
 
-> **AI-Map** is built as an educational and production-grade project to show how vector databases like Pinecone, Weaviate, and Chroma actually work under the hood.
+> **Rag-Db** is built as an educational and production-grade project to show how vector databases like Pinecone, Weaviate, and Chroma actually work under the hood.
 
 ---
 
@@ -113,10 +113,10 @@ Answer
 ## ⚡ Installation & Quick Start
 
 ### Option A: All-in-One Public Docker Container (Recommended — 1 Command)
-Runs the entire system (AI-Map Engine + Embedded Ollama + Auto Model Downloader) inside a single self-contained container with zero repository cloning required:
+Runs the entire system (Rag-Db Engine + Embedded Ollama + Auto Model Downloader) inside a single self-contained container with zero repository cloning required:
 
 ```bash
-docker run -p 8080:8080 ghcr.io/the-raja/ai-map:latest
+docker run -p 8080:8080 ghcr.io/the-raja/rag-db:latest
 ```
 Access the web interface at **`http://localhost:8080`**.
 
@@ -129,8 +129,8 @@ Recommended for local development with multi-container orchestration:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/the-raja/ai-map.git
-   cd ai-map
+   git clone https://github.com/the-raja/Rag-Db.git
+   cd Rag-Db
    ```
 2. Launch the container suite:
    ```bash
@@ -145,8 +145,8 @@ Recommended for local engine development or running without Docker:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/the-raja/ai-map.git
-   cd ai-map
+   git clone https://github.com/the-raja/Rag-Db.git
+   cd Rag-Db
    ```
 2. Execute unit test suite:
    ```bash

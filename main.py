@@ -902,7 +902,7 @@ def main():
     VectorDBRequestHandler.ollama = ollama
 
     ollama_up = ollama.is_available()
-    print("=== AI-Map Engine (Python) ===")
+    print("=== Rag-Db Engine (Python) ===")
     print("http://localhost:8080")
     print(f"{db.size()} demo vectors | {DIMS} dims | HNSW+KD-Tree+BruteForce")
     print(f"Ollama: {'ONLINE' if ollama_up else 'OFFLINE (install from ollama.com)'}")

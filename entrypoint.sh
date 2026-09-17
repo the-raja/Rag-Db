@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "=== Starting AI-Map All-in-One Container ==="
+echo "=== Starting Rag-Db All-in-One Container ==="
 
 export OLLAMA_HOST="127.0.0.1:11434"
 
@@ -25,5 +25,5 @@ if ! curl -s http://127.0.0.1:11434/api/tags | grep -q "llama3.2"; then
     ollama pull llama3.2
 fi
 
-echo "[3/3] AI Models ready! Launching AI-Map Server on http://localhost:8080..."
+echo "[3/3] AI Models ready! Launching Rag-Db Server on http://localhost:8080..."
 exec python main.py
