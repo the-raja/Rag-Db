@@ -1,4 +1,4 @@
-# 🚀 Rag-Db: VectorDB Engine & RAG Visualizer — Ultimate Interview Preparation Master Guide
+# 🚀 Rag-Db: VectorDB Engine & RAG Visualizer — Architecture, Systems Internals & Deep-Dive Guide
 
 ---
 

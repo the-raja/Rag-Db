@@ -22,6 +22,7 @@ Most AI applications rely on heavy pre-packaged abstraction layers like ChromaDB
 * **100% Private Offline RAG Pipeline**: Chunks documents, generates 768D embeddings (`nomic-embed-text`), retrieves top-$k$ context, and generates natural answers via a local LLM (`llama3.2`) with **zero cloud API costs**.
 * **DevOps & Containerization**: Fully containerized using `docker-compose` with an automated AI model bootstrap script and GitHub Actions CI/CD pipeline publishing to **GitHub Container Registry (GHCR)**.
 * **Zero External Python Dependencies**: Built using pure Python standard library (`http.server`, `heapq`, `urllib`, `threading`, `dataclasses`).
+* **Deep Architecture & Systems Internals Guide**: Full mathematical breakdown of HNSW graph construction, PCA dimensionality reduction, concurrency model, and 50+ technical deep-dive Q&As in the [Internals Guide](internals/ARCHITECTURE_AND_INTERNALS.md).
 
 ---
 
